@@ -1,1 +1,4 @@
 coco_test/
+venv/
+.DS_Store
+mmdetection/weights/
