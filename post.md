@@ -29,7 +29,7 @@ YOLOv3 (You Only Look Once) is described as a real-time object detection algorit
 ### Faster R-CNN
 Faster R-CNN is a popular object detection algorithm that uses a two-stage detection process (unlike YOLOv3's one-stage) to generate region proposals and refine them using a classification and regression network. The Region Proposal Network (RPN) generates a set of candidate regions of interest in the image, while the Classifier Network labels each region as being part of a class or just the background.
 
-<img src='https://user-images.githubusercontent.com/40661020/143881188-ab87720f-5059-4b4e-a928-b540fb8fb84d.png'>
+![AltText]({{ '/assets/images/team04/fastrcnn.png' | relative_url }}) {: style="width: 600px; max-width: 100%;"} Figure 2. Increase in Number of Object Detection Publications From 1998 to 2001 [1].
 
 The shared feature map for the RPN and classifier networks allow Faster R-CNN to perform object detection in real-time applications while still demonstrating excellent performance.
 
