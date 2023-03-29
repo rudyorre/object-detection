@@ -228,7 +228,7 @@ Moving on, transfer learning of the Faster R-CNN model on the KITTI dataset was 
 
 <img src='assets/images/team04/acc_loss.png' style="width: 600px; max-width: 100%;" />
 <img src='assets/images/team04/loss_bbox_cls.png' style="width: 600px; max-width: 100%;" />
-<img src='assets/images/team04/Loss_rpn.png' style="width: 600px; max-width: 100%;" />
+<img src='assets/images/team04/loss_rpn.png' style="width: 600px; max-width: 100%;" />
 
 As mentioned before, since Faster R-CNN is comprised of a regular classifier network and a region proposal network, we are able to view the loss values while training for both networks and they both dramatically drop. We can see the accuracy success shown also through the final Average Precision scores for each of the classes, as well as the mean of these scores (mAP) (note that these are using an IoU=0.50):
 ```
