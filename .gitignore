@@ -2,3 +2,8 @@ coco_test/
 venv/
 .DS_Store
 mmdetection/weights/
+__pycache__/
+kitti_tiny*
+checkpoints/
+input/
+weights.txt
